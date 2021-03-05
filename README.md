@@ -1,4 +1,4 @@
-## Flask todo mariadb
+## Flask todo mariadb example
 
 ## 範例教學來源
 https://youtu.be/yKHJsLUENl0
