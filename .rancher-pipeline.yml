@@ -101,7 +101,7 @@ stages:
         git.branch: ${CICD_GIT_BRANCH}
         git.commitID: ${CICD_GIT_COMMIT}
         git.repoName: ${CICD_GIT_REPO_NAME}
-        web.port: 3000
+        web.port: 5000
         web.imageTag: ${CICD_GIT_REPO_NAME}/${CICD_GIT_BRANCH}:latest
         # db settings, all should be as same as those in deploy-db stage
         db.releaseName: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-db
@@ -146,7 +146,7 @@ stages:
       targetNamespace: ${CICD_GIT_REPO_NAME}
       answers:
         web.deployName: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-serv
-        web.port: 3000
+        web.port: 5000
         # Common answers
         pipeline.sequence: ${CICD_EXECUTION_SEQUENCE}
         git.url: ${CICD_GIT_URL}
