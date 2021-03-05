@@ -52,7 +52,7 @@ stages:
         db.gui: true
         db.username: iiidevops
         db.password: templatePassword
-        db.name: login
+        db.name: todo
         db.tag: 10.5
         # Common project info
         git.url: ${CICD_GIT_URL}
@@ -107,7 +107,7 @@ stages:
         db.releaseName: ${CICD_GIT_REPO_NAME}-${CICD_GIT_BRANCH}-db
         db.username: iiidevops
         db.password: templatePassword
-        db.name: login
+        db.name: todo
     when:
       branch:
         include:
