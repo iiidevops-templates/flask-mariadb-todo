@@ -1,5 +1,5 @@
 {
-  "name": "Flask Mariadb 10.5 - todo",
+  "name": "Python Flask with MariaDB - Todo",
   "description": "Flask / Mariadb: 10.5 <a class='el-link el-link--primary' href='https://github.com/iiidevops-templates/flask-mariadb-todo/blob/master/README.md' target='_blank'>Todo範本說明</a>",
   "arguments": [
     {
