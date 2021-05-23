@@ -200,7 +200,7 @@ stages:
   when:
     branch:
       include:
-      - webinspect
+      - master
 - name: Test--ZAP
   steps:
   - applyAppConfig:
